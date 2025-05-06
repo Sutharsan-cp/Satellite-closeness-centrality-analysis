@@ -29,11 +29,27 @@ A Python-based satellite tracker that visualizes real-time positions of satellit
 
 ## 🚀 How to Run
 
-1. Clone the repo :
-  ```bash
-  git clone https://github.com/your-username/satellite-network-tracker.git
-  cd satellite-network-tracker 
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/satellite-network-tracker.git
+    cd satellite-network-tracke
 
+2. Make sure these files are in the folder:
+    - world.png
+    - iss.gif, eo1.gif, geoeye.gif, insat.gif
 
+3. Run the script:
+    ```bash
+    python satellite_tracker.py
+---
 
+## Sources
+
+- Satellite TLE data from Celestrak
+- Map and icons: custom user-provided images
+
+---
+
+## License
+  This project is licensed under the MIT License. See the LICENSE file for more details.
 
